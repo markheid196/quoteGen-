@@ -1,0 +1,40 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0; /* Ensures no default margin is applied to the body */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.quote-container {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px; /* Adds space between the quote box and the button */
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
